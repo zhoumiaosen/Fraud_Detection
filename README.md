@@ -5,7 +5,7 @@ Develop an ML model to detect fraudulent transactions using historical data
 ## Project Structure
 
 ```plaintext
-Question_Answering_LM/
+Fraud_Detection/
 │
 │
 ├── src/                  		# Source code Folder
