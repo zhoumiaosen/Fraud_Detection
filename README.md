@@ -9,11 +9,13 @@ Fraud_Detection/
 │
 │
 ├── src/                  		# Source code Folder
-│   ├── data_EDA.ipynb       		# Explore the Dataset
-│   ├── data_preprocessing.ipynb        # data preprocessing
-│   ├── gradio_UI.ipynb         	# UI
-│   ├── results_plot.ipynb      	# Plot the Results
-│   └── model.ipynb         		# Model
+│   ├── Data_EDA.ipynb       		# Explore the Dataset
+│   ├── feature_engineering.ipynb       # data preprocessing and features selection
+│   └── training/          		
+│   	├── Logistic_Regression.ipynb   # Logistic Regression model train and evaluation
+│   	├── XGBoost.ipynb      		# XGBoost model train and evaluation
+│   	├── Isolation_Forest.ipynb    	# Isolation Forest model train and evaluation
+│   	└── One_Class_SVM.ipynb        	# One Class SVM model train and evaluation
 │
 └── README.md              		# Project documentation and instructions
 
